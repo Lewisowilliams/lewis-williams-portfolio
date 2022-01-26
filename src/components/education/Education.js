@@ -26,7 +26,7 @@ function Education() {
   console.log(dates);
   console.log(text);
   return (
-    <section className="container px-5 py-10 mx-auto text-center">
+    <section id='education' className="container px-5 py-10 mx-auto text-center">
       <FaGraduationCap size={30} className="w-10 inline-block mb-4" />
       <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-12">
       Education
@@ -36,7 +36,7 @@ function Education() {
           {
             tabs.map((item,index)=>{
               return <button  key={item} onClick={()=> 
-                setValue(index)} className={`job-btn ${index=== value && 'active-btn'}`}>
+                setValue(index)} className='hover:bg-blue-700'>
                 {item}
               </button>
             })

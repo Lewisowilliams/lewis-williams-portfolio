@@ -1,19 +1,17 @@
 export const projects = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
+    title: "Emission Database",
+    subtitle: "Data Science and Web Dev",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "Built a database of emissions data from UK quoted companies using the Companies House API, OCR and NLP to process data and flask to build the website.",
     image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
   },
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
+    title: "A* Search Algorithm",
+    subtitle: "Algorithm Implementation",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "An interactive app which allows the user to build a maze and visulaize the A* search algorithm navigating around obstacles from one point to another.",
     image: "./project-2.gif",
-    link: "https://reactbootcamp.com",
   },
   {
     title: "DevChat",
@@ -21,7 +19,6 @@ export const projects = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     image: "./project-3.gif",
-    link: "https://reactbootcamp.com",
   },
   {
     title: "Epic Todo App",
@@ -29,7 +26,6 @@ export const projects = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     image: "./project-4.gif",
-    link: "https://reactbootcamp.com",
   },
 ];
 

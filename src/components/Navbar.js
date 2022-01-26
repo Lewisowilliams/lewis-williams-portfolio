@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowRightIcon } from "@heroicons/react/solid"
+import { FaLinkedin } from "react-icons/fa";
 
 const Navbar = () => {
 
@@ -13,19 +14,28 @@ const Navbar = () => {
         </a>
         <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center">
           <a href="#projects" className="mr-5 hover:text-white">
-            Past Work
+            Personal Projects
           </a>
-          <a href="#skills" className="mr-5 hover:text-white">
-            Skills
+          <a href="#experiences" className="mr-5 hover:text-white">
+            Experience
           </a>
-          <a href="#testimonials" className="mr-5 hover:text-white">
-            Testimonials
+          <a href="#education" className="mr-5 hover:text-white">
+            Education
+          </a>
+          <a href="#languages" className="mr-5 hover:text-white">
+            Programming Languages
           </a>
         </nav>
         <a
+          href="https://www.linkedin.com/in/lewis-williams-125485172/"
+          target="_blank"
+          className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none">
+          <FaLinkedin className="w-6 h-6 ml-1" />
+        </a>
+        <a
           href="#contact"
           className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
-          Hire Me
+          Contact Me
           <ArrowRightIcon className="w-4 h-4 ml-1" />
         </a>
       </div>

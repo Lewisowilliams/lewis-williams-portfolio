@@ -3,31 +3,31 @@ const pastExperiences = [
     id: 1,
     title: 'Agile Group Projects',
     info:
-      'Unicorn vinyl poutine brooklyn, next level direct trade iceland. Shaman copper mug church-key coloring book, whatever poutine normcore fixie cred kickstarter post-ironic street art.',
+      'I have carried out several projects as part of larger teams, for example, game development and population modelling research. through these projects I have been introduced to and utilised several agile approachs such as Scrum, Kanban and XP programming. These exeperiences taught me how to effectively commincate with a team, work quickly towards an MVP and understand the needs a role of each member in an agile project',
   },
   {
     id: 2,
     title: 'Data Analysis',
     info:
-      'Coloring book forage photo booth gentrify lumbersexual. Migas chillwave poutine synth shoreditch, enamel pin thundercats fashion axe roof party polaroid chartreuse.',
+      'Due my training as a Biochemist I have a strong background in data science and analysis, this includes projects such as my undergraduate dissertaion which used python to search for pattern in bacterial genomes as well as my masters dissertation which applied techniques such as optical character recognition, document layout analysis and natural language processing to identify important emission data from among hundred of pages within company annual reports',
   },
   {
     id: 3,
     title: 'Algorithm Implementation',
     info:
-      'Enamel pin fam sustainable woke whatever venmo. Authentic asymmetrical put a bird on it, lumbersexual activated charcoal kinfolk banjo cred pickled sartorial.',
+      'As part of both personal projects and university courseworks I have studied and implemented various algorithms, one example (A* search) can be seen above and other projects include implementing Minimax to build a Connect-4 AI and using a backtracking constraint satisfaction search algorithm to build a Sudoku solver',
   },
   {
     id: 4,
     title: 'Web Development',
     info:
-      'Edison bulb direct trade gentrify beard lo-fi seitan sustainable roof party franzen occupy squid. Knausgaard cronut succulents, scenester readymade shabby chic lyft. Copper mug meh vegan gentrify.',
+      'Developed several small websites using various languages and frameworks for example python based frameworks such as django and flask or javascript and react based websites such as this one with dynamic and interactive components.',
   },
   {
   id: 5,
-  title: 'Github & CV',
+  title: 'CV',
   info:
-    'Edison bulb direct trade gentrify beard lo-fi seitan sustainable roof party franzen occupy squid. Knausgaard cronut succulents, scenester readymade shabby chic lyft. Copper mug meh vegan gentrify.',
+    '',
   },
 
 ]
