@@ -12,11 +12,11 @@ function Education() {
   const [education, setEducation] = useState([educationData])
   const [value, setValue] = useState(0)
 
-  const tabs = ['Masters','Bacherlors', 'A-Levels & GCSEs']
+  const tabs = ['Master\'s','Bachelor\'s', 'A-Levels & GCSEs']
   console.log(education);
 
 
-
+ 
 
 
   const {id,name,location,dates,text} = educationData[value]
@@ -27,16 +27,16 @@ function Education() {
   console.log(text);
   return (
     <section id='education' className="container px-5 py-10 mx-auto text-center">
-      <FaGraduationCap size={30} className="w-10 inline-block mb-4" />
+      <FaGraduationCap size={30} className="w-10 inline-block mb-4 text-cont-green" />
       <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-12">
       Education
       </h1>
       <div className='flex items-stretch'>
-        <div className='flex flex-col justify- mb-16 flex-wrap pr-4 space-y-4 space-x-2'>
+        <div className='flex flex-col mb-16 flex-wrap pr-4 space-y-4 '>
           {
             tabs.map((item,index)=>{
               return <button  key={item} onClick={()=> 
-                setValue(index)} className='hover:bg-blue-700'>
+                setValue(index)} className='px-2 py-0.5 text-center text-white bg-cont-green hover:bg-gray-700 rounded'>
                 {item}
               </button>
             })

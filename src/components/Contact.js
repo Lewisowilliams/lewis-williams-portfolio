@@ -35,7 +35,7 @@ const Contact = () => {
           onSubmit={handleSubmit}
           className="lg:w-1/3 md:w-1/2 md:py-8 mt-8 md:mt-0">
         <div className="text-center mb-20">
-          <SiMaildotru size={30} className="w-10 inline-block mb-4" />
+          <SiMaildotru size={30} className="w-10 inline-block mb-4 text-cont-green" />
           <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
             Contact Me
           </h1>

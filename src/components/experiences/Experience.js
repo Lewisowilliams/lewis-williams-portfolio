@@ -10,7 +10,7 @@ const Experience = ({title,info}) => {
       <h3 className='sm:text-1xl text-2xl font-thin title-font text-white mb-1 mr-3 '>{title}</h3>
 
         <button  onClick={()=>setReadMore(!readMore)} className='mt-2'>
-          {readMore ? <AiOutlineMinus /> : <AiOutlinePlus/>}
+          {readMore ? <AiOutlineMinus className='text-cont-green' /> : <AiOutlinePlus className='text-cont-green'/>}
         </button>
 
     </header>

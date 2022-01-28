@@ -5,7 +5,7 @@ import { FaLinkedin } from "react-icons/fa";
 const Navbar = () => {
 
     return (
-    <header className="bg-gray-800 md:sticky top-0 z-10">
+    <header className="bg-nav md:sticky top-0 z-10">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <a className="title-font font-medium text-white mb-4 md:mb-0">
           <a href="#about" className="ml-3 text-xl">
@@ -29,12 +29,12 @@ const Navbar = () => {
         <a
           href="https://www.linkedin.com/in/lewis-williams-125485172/"
           target="_blank"
-          className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none">
+          className="inline-flex items-center bg-nav border-0 py-1 px-3 focus:outline-none">
           <FaLinkedin className="w-6 h-6 ml-1" />
         </a>
         <a
           href="#contact"
-          className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
+          className="inline-flex items-center bg-nav border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
           Contact Me
           <ArrowRightIcon className="w-4 h-4 ml-1" />
         </a>

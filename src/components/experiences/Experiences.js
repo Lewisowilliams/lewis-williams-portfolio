@@ -10,7 +10,7 @@ function Experiences() {
 
   return <main id='experiences'>
     <div className="container px-5 py-10 mx-auto text-center">
-      <FaBriefcase size={30} className="w-10 inline-block mb-4"/>
+      <FaBriefcase size={30} className="w-10 inline-block mb-4 text-cont-green"/>
       <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-12">Experience</h1>
       <section >
         {

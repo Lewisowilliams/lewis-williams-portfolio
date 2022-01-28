@@ -10,21 +10,21 @@ export const projects = [
     title: "A* Search Algorithm",
     subtitle: "Algorithm Implementation",
     description:
-      "An interactive app which allows the user to build a maze and visulaize the A* search algorithm navigating around obstacles from one point to another.",
+      "An interactive app that allows the user to build a maze and visualize the A* search algorithm navigating around obstacles from one point to another.",
     image: "./project-2.gif",
   },
   {
-    title: "DevChat",
-    subtitle: "React and Firebase",
+    title: "Netlogo Modelling",
+    subtitle: "Population research",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "Used the population modelling software NetLogo to simulate an environment and research how migratory activity and population size affect knowledge spread among subpopulations",
     image: "./project-3.gif",
   },
   {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
+    title: "Game Development",
+    subtitle: "Agile Group Project",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "Worked as part of a diverse group to build a game under strict time constraints and with constantly changing objectives, we employed agile methodologies such as Scrum and Kanban to overcome these challenges",
     image: "./project-4.gif",
   },
 ];
@@ -53,7 +53,7 @@ export const languages = [
   level:"High"},
   {lang:"SQL",
   level:"Medium"},
-  {lang:"Javascript & React",
+  {lang:"JavaScript & React",
   level:"Medium"},
   {lang:"C/C++",
   level:"Medium"},

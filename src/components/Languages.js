@@ -9,7 +9,7 @@ const Languages = () => {
     <section id="languages">
       <div className="container px-5 py-10 mx-auto">
         <div className="text-center mb-20">
-          <ChipIcon className="w-10 inline-block mb-4" />
+          <ChipIcon className="w-10 inline-block mb-4 text-cont-green" />
           <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
             Programming Languages
           </h1>
@@ -19,7 +19,7 @@ const Languages = () => {
             const {lang, level} = language;
             return (
             <div key={lang} className="p-2 sm:w-1/2 w-full">
-              <div className="bg-gray-800 rounded flex p-4 h-full items-center">
+              <div className="bg-cont-green rounded flex p-4 h-full items-center">
                 {level==="High" && <BsFillEmojiHeartEyesFill className="text-green-600 w-6 h-6 flex-shrink-0 mr-4" />}
                 {level==="Medium" && <BsFillEmojiLaughingFill className="text-green-400 w-6 h-6 flex-shrink-0 mr-4" />}
                 {level==="Low" && <BsFillEmojiSmileFill className="text-green-200 w-6 h-6 flex-shrink-0 mr-4" />}
