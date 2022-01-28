@@ -14,7 +14,7 @@ export const projects = [
     image: "./project-2.gif",
   },
   {
-    title: "Netlogo Modelling",
+    title: "NetLogo Modelling",
     subtitle: "Population research",
     description:
       "Used the population modelling software NetLogo to simulate an environment and research how migratory activity and population size affect knowledge spread among subpopulations",
